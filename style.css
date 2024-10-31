@@ -1,964 +1,910 @@
-@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
 
 :root {
-    --black: #000;
-    --white: #fff;
-    --blue: #0B132A;
-    --orange: #F53855;
-    --gray: #4F5665;
-    --darkblue: #0D1025;
+  --black: #000;
+  --white: #fff;
+  --blue: #0b132a;
+  --orange: #f53855;
+  --gray: #4f5665;
+  --darkblue: #0d1025;
 }
 
 * {
-    font-family: "Rubik", sans-serif;
-    margin: 0;
-    box-sizing: none;
-    padding: 0;
+  font-family: "Rubik", sans-serif;
+  margin: 0;
+  box-sizing: inherit;
+  padding: 0;
+  scroll-behavior: smooth;
 }
-
+body {
+  display: flex;
+}
 nav {
-    justify-content: space-between;
+  justify-content: space-between;
 }
 
 .flex {
-    display: flex;
-
+  display: flex;
 }
 
 .item_center {
-    align-items: center;
+  align-items: center;
 }
 
 img {
-    width: 35px;
-    height: 36.23px;
-    top: 50px;
-    left: 150px;
-
+  width: 35px;
+  height: 36.23px;
+  top: 50px;
+  left: 150px;
 }
 
 span {
-    width: 104px;
-    height: 24px;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 23.7px;
-    margin-left: 10px;
-    color: #0B132A;
-
-
+  width: 104px;
+  height: 24px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23.7px;
+  margin-left: 10px;
+  color: #0b132a;
 }
 
 #logo {
-    width: 149px;
-    height: 36.23px;
-    margin-top: -30px;
-
+  width: 149px;
+  height: 36.23px;
+  margin-top: -30px;
 }
 
 .container {
-    padding-left: 20px;
-    padding-right: 20px;
-    max-width: 1100px;
-    margin: 0 auto;
-    padding-top: 50px;
-
+  padding-left: 20px;
+  padding-right: 20px;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding-top: 50px;
 }
 
 .btn {
-    width: 150px;
-    height: 45px;
-    border: 1px solid var(--orange);
-    border-radius: 50px;
-    color: #F53855;
-    background-color: #fff;
-    cursor: pointer;
-    font-weight: bold;
+  width: 150px;
+  height: 45px;
+  border: 1px solid var(--orange);
+  border-radius: 50px;
+  color: #f53855;
+  background-color: #fff;
+  cursor: pointer;
+  font-weight: bold;
 }
 
 #nav {
-    gap: 40px;
-    color: #4F5665;
+  gap: 40px;
+  color: #4f5665;
 }
 
 #btn {
-    gap: 30px;
-    font-weight: 700;
+  gap: 30px;
+  font-weight: 700;
 }
 
-
 .vpn {
-    width: 555px;
-    height: 140px;
-    font-family: Rubik;
-    font-size: 50px;
-    font-weight: 500;
-    line-height: 70px;
-    color: #0B132A;
-
+  width: 555px;
+  height: 140px;
+  font-family: Rubik;
+  font-size: 50px;
+  font-weight: 500;
+  line-height: 70px;
+  color: #0b132a;
 }
 
 .nvpn {
-    font-family: Rubik;
-    font-size: 50px;
-    font-weight: 700;
-    line-height: 70px;
-    color: #0B132A;
-
+  font-family: Rubik;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 70px;
+  color: #0b132a;
 }
 
 .space-between {
-    justify-content: space-between;
+  justify-content: space-between;
 }
 
 .banner {
-    margin-top: 88px;
-    align-items: center;
+  margin-top: 88px;
+  align-items: center;
 }
 
-
 .banner .illustration {
-    width: 500.24px;
-    height: 382.44px;
+  width: 500.24px;
+  height: 382.44px;
 }
 
 .lay {
-    width: 250px;
-    height: 100px;
-    border-radius: 10px;
-    margin-left: -25px;
-    margin-top: 50px;
-
+  width: 250px;
+  height: 100px;
+  border-radius: 10px;
+  margin-left: -25px;
+  margin-top: 50px;
 }
 
-
-
 .provide {
-    font-family: Rubik;
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 30px;
-    text-align: left;
-    margin-top: 20px;
-    color: #4F5665;
-
+  font-family: Rubik;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 30px;
+  text-align: left;
+  margin-top: 20px;
+  color: #4f5665;
 }
 
 .user {
-    width: 1000px;
-    height: 200px;
-    padding-left: 50px;
-    margin-right: 150px;
-    border-radius: 10px 0px 0px 0px;
-    box-shadow: #0D1025;
-
-
+  width: 1000px;
+  height: 200px;
+  padding-left: 50px;
+  margin-right: 150px;
+  border-radius: 10px 0px 0px 0px;
+  box-shadow: #0d1025;
 }
 
 .users {
-    width: 55px;
-    height: 55px;
-
-
+  width: 55px;
+  height: 55px;
 }
 
 .us {
-    width: 54px;
-    height: 30px;
-    font-family: Rubik;
-    font-size: 20px;
-    font-weight: 400;
-    line-height: 30px;
-    color: #4F5665;
-    margin-left: 0.5px;
+  width: 54px;
+  height: 30px;
+  font-family: Rubik;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  color: #4f5665;
+  margin-left: 0.5px;
 }
 
 .use {
-    width: 49px;
-    height: 30px;
-    font-family: Rubik;
-    font-size: 25px;
-    font-weight: 700;
-    line-height: 30px;
-    color: #0B132A;
-    padding-left: 20.5px;
-
-
+  width: 49px;
+  height: 30px;
+  font-family: Rubik;
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 30px;
+  color: #0b132a;
+  padding-left: 20.5px;
 }
 
 .location {
-    width: 55px;
-    height: 55px;
-
+  width: 55px;
+  height: 55px;
 }
 
 .locate {
-    width: 49px;
-    height: 30px;
-    padding-left: 20.5px;
-    font-family: Rubik;
-    font-size: 25px;
-    font-weight: 700;
-    line-height: 30px;
-    color: #0B132A;
+  width: 49px;
+  height: 30px;
+  padding-left: 20.5px;
+  font-family: Rubik;
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 30px;
+  color: #0b132a;
 }
 
 .loc {
-    width: 91px;
-    height: 30px;
-    font-family: Rubik;
-    font-size: 20px;
-    font-weight: 400;
-    line-height: 30px;
-    color: #4F5665;
-    margin-left: 0.5px;
+  width: 91px;
+  height: 30px;
+  font-family: Rubik;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  color: #4f5665;
+  margin-left: 0.5px;
 }
 
 .server {
-    width: 55px;
-    height: 55px;
+  width: 55px;
+  height: 55px;
 }
 
 .ser {
-    width: 71px;
-    height: 30px;
-    font-family: Rubik;
-    font-size: 20px;
-    font-weight: 400;
-    line-height: 30px;
-    color: #4F5665;
-    margin-left: 0.5px;
+  width: 71px;
+  height: 30px;
+  font-family: Rubik;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  color: #4f5665;
+  margin-left: 0.5px;
 }
 
 .serve {
-    width: 49px;
-    height: 30px;
-    font-family: Rubik;
-    font-size: 25px;
-    font-weight: 700;
-    line-height: 30px;
-    color: #0B132A;
-    padding-left: 20.5px;
-
+  width: 49px;
+  height: 30px;
+  font-family: Rubik;
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 30px;
+  color: #0b132a;
+  padding-left: 20.5px;
 }
 
 .illust2 {
-    width: 508.12px;
-    height: 360.71px;
-    top: 960.38px;
-    left: 184.52px;
-    gap: 0px;
-    opacity: 0px;
-
+  width: 508.12px;
+  height: 360.71px;
+  top: 960.38px;
+  left: 184.52px;
+  gap: 0px;
+  opacity: 0px;
 }
 
 #text {
-    width: 383.41px;
-    height: 100px;
-    padding-top: 50px;
-    font-size: 35px;
-    font-weight: 500;
-    line-height: 50px;
-    text-align: left;
-    color: #0B132A;
-    font-family: Rubik;
+  width: 383.41px;
+  height: 100px;
+  padding-top: 50px;
+  font-size: 35px;
+  font-weight: 500;
+  line-height: 50px;
+  text-align: left;
+  color: #0b132a;
+  font-family: Rubik;
 }
 
 .text {
-    width: 480.88px;
-    height: 60px;
-    padding-top: 20px;
-    color: #4F5665;
+  width: 480.88px;
+  height: 60px;
+  padding-top: 20px;
+  color: #4f5665;
 }
 
 .img {
-    width: 250px;
-    height: 30px;
-    padding-top: 20px;
-    padding-right: 20px;
-    font-size: 14px;
-    font-weight: 400;
-    text-align: left;
-    line-height: 30px;
-
-
+  width: 250px;
+  height: 30px;
+  padding-top: 20px;
+  padding-right: 20px;
+  font-size: 14px;
+  font-weight: 400;
+  text-align: left;
+  line-height: 30px;
 }
 
 .fig {
-    width: 24px;
-    height: 24px;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 30px;
-    text-align: left;
-    padding-right: 10px;
-
+  width: 24px;
+  height: 24px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: left;
+  padding-right: 10px;
 }
 
 #fig {
-    color: #4F5665;
-    width: 179px;
-    height: 30px;
-    font-family: Rubik;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 30px;
-    text-align: left;
+  color: #4f5665;
+  width: 179px;
+  height: 30px;
+  font-family: Rubik;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: left;
 }
 
 #vec {
-    border-right: 2px solid#EEEFF2;
-    padding-right: 150px;
+  border-right: 2px solid#EEEFF2;
+  padding-right: 150px;
 }
 
 #plan {
-    width: 383.41px;
-    height: 50px;
-    font-family: Rubik;
-    font-size: 35px;
-    font-weight: 540;
-    line-height: 50px;
-    text-align: center;
-    padding-left: 300px;
-    padding-top: 150px;
-    padding-bottom: 20px;
-    color: #0B132A;
-
+  width: 383.41px;
+  height: 50px;
+  font-family: Rubik;
+  font-size: 35px;
+  font-weight: 540;
+  line-height: 50px;
+  text-align: center;
+  padding-left: 300px;
+  padding-top: 150px;
+  padding-bottom: 20px;
+  color: #0b132a;
 }
 
 #package {
-    width: 555px;
-    height: 60px;
-    padding-top: 20px;
-    padding-left: 200px;
-    padding-bottom: 30px;
-    font-family: Rubik;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 30px;
-    text-align: center;
-    color: #4F5665;
-
+  width: 555px;
+  height: 60px;
+  padding-top: 20px;
+  padding-left: 200px;
+  padding-bottom: 30px;
+  font-family: Rubik;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: center;
+  color: #4f5665;
 }
 
 #free {
-    width: 54px;
-    height: 30px;
-    padding-top: 100px;
-    padding-left: 50px;
-    font-family: Rubik;
-    font-size: 25px;
-    font-weight: 700;
-    line-height: 30px;
-    padding-left: 120px;
+  width: 54px;
+  height: 30px;
+  padding-top: 100px;
+  padding-left: 50px;
+  font-family: Rubik;
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 30px;
+  padding-left: 120px;
 }
 
 #pay {
-    width: 100px;
-    height: 30px;
-    font-family: Rubik;
-    font-size: 25px;
-    font-weight: 500;
-    line-height: 30px;
-    padding-top: 60px;
-    padding-left: 110px;
-
-
+  width: 100px;
+  height: 30px;
+  font-family: Rubik;
+  font-size: 25px;
+  font-weight: 500;
+  line-height: 30px;
+  padding-top: 60px;
+  padding-left: 110px;
 }
 
 #paid {
-    font-family: Rubik;
-    font-size: 25px;
-    font-weight: 500;
-    line-height: 30px;
-    text-align: center;
-    width: 120px;
-    height: 30px;
-    padding-top: 20px;
-    padding-left: 110px;
-
+  font-family: Rubik;
+  font-size: 25px;
+  font-weight: 500;
+  line-height: 30px;
+  text-align: center;
+  width: 120px;
+  height: 30px;
+  padding-top: 20px;
+  padding-left: 110px;
 }
 
 #but {
-    width: 150px;
-    height: 45px;
-    border: 1px solid var(--orange);
-    border-radius: 50px;
-    color: #F53855;
-    background-color: #fff;
-    cursor: pointer;
-    font-weight: bold;
-    margin-top: 20px;
-    margin-left: 80px;
+  width: 150px;
+  height: 45px;
+  border: 1px solid var(--orange);
+  border-radius: 50px;
+  color: #f53855;
+  background-color: #fff;
+  cursor: pointer;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-left: 80px;
 }
 
 #butt {
-    width: 150px;
-    height: 45px;
-    border: 1px solid var(--orange);
-    border-radius: 50px;
-    color: #fff;
-    background-color: #F53855;
-    cursor: pointer;
-    font-weight: bold;
-    margin-top: 20px;
-    margin-left: 90px;
+  width: 150px;
+  height: 45px;
+  border: 1px solid var(--orange);
+  border-radius: 50px;
+  color: #fff;
+  background-color: #f53855;
+  cursor: pointer;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-left: 90px;
 }
 
 .box1 {
-    width: 330px;
-    height: 760px;
-    border-radius: 10px;
-    border: 2px;
-    border: 2px solid #DDDDDD;
-    background-color: #FFFFFF;
-    padding-top: 79px;
+  width: 330px;
+  height: 760px;
+  border-radius: 10px;
+  border: 2px;
+  border: 2px solid #dddddd;
+  background-color: #ffffff;
+  padding-top: 79px;
 }
 
 .box2 {
-    width: 330px;
-    height: 760px;
-    border-radius: 10px;
-    border: 2px;
-    border: 2px solid #DDDDDD;
-    background-color: #FFFFFF;
-    padding-top: 79px;
-
+  width: 330px;
+  height: 760px;
+  border-radius: 10px;
+  border: 2px;
+  border: 2px solid #dddddd;
+  background-color: #ffffff;
+  padding-top: 79px;
 }
 
 .box3 {
-    width: 330px;
-    height: 760px;
-    border-radius: 10px;
-    border: 2px;
-    border: 2px solid #F53838;
-    background-color: #FFFFFF;
-    padding-top: 79px;
-    margin-bottom: 150px;
-
+  width: 330px;
+  height: 760px;
+  border-radius: 10px;
+  border: 2px;
+  border: 2px solid #f53838;
+  background-color: #ffffff;
+  padding-top: 79px;
+  margin-bottom: 150px;
 }
 
 #box1 {
-    width: 230.26px;
-    height: 150px;
-    padding-top: 30px;
-    font-family: Rubik;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 30px;
-    padding-left: 69px;
-
+  width: 230.26px;
+  height: 150px;
+  padding-top: 30px;
+  font-family: Rubik;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 30px;
+  padding-left: 69px;
 }
 
 #box2 {
-    width: 190.54px;
-    height: 190px;
-    padding-top: 30px;
-    font-family: Rubik;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 30px;
-    padding-left: 69px;
-
-
-
-
+  width: 190.54px;
+  height: 190px;
+  padding-top: 30px;
+  font-family: Rubik;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 30px;
+  padding-left: 69px;
 }
 
 #box3 {
-    width: 190.54px;
-    height: 230px;
-    padding-top: 30px;
-    font-family: Rubik;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 30px;
-    padding-left: 69px;
+  width: 190.54px;
+  height: 230px;
+  padding-top: 30px;
+  font-family: Rubik;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 30px;
+  padding-left: 69px;
 }
 
 #freebies {
-    width: 144.9px;
-    height: 165.37px;
-    padding-top: 20px;
-    padding-left: 80px;
-
+  width: 144.9px;
+  height: 165.37px;
+  padding-top: 20px;
+  padding-left: 80px;
 }
 
 .free_plan {
-    width: 90px;
-    height: 30px;
-    padding-top: 30px;
-    padding-left: 30px;
-    font-family: Rubik;
-    font-size: 18px;
-    font-weight: 700;
-    line-height: 30px;
-    color: #0B132A;
-    padding-left: 110px;
+  width: 90px;
+  height: 30px;
+  padding-top: 30px;
+  padding-left: 30px;
+  font-family: Rubik;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 30px;
+  color: #0b132a;
+  padding-left: 110px;
 }
 
 .Standard_plan {
-    width: 140px;
-    height: 30px;
-    padding-top: 30px;
-    padding-left: 30px;
-    font-family: Rubik;
-    font-size: 18px;
-    font-weight: 700;
-    line-height: 30px;
-    color: #0B132A;
-    padding-left: 90px;
+  width: 140px;
+  height: 30px;
+  padding-top: 30px;
+  padding-left: 30px;
+  font-family: Rubik;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 30px;
+  color: #0b132a;
+  padding-left: 90px;
 }
 
 .premium_plan {
-    width: 140px;
-    height: 30px;
-    padding-top: 30px;
-    padding-left: 30px;
-    font-family: Rubik;
-    font-size: 18px;
-    font-weight: 700;
-    line-height: 30px;
-    color: #0B132A;
-    padding-left: 95px;
+  width: 140px;
+  height: 30px;
+  padding-top: 30px;
+  padding-left: 30px;
+  font-family: Rubik;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 30px;
+  color: #0b132a;
+  padding-left: 95px;
 }
 
 .huge {
-    font-family: Rubik;
-    font-size: 35px;
-    font-weight: 500;
-    line-height: 50px;
-    padding-left: 300px;
-    width: 383.41px;
-    height: 100px;
-    color: #0B132A;
+  font-family: Rubik;
+  font-size: 35px;
+  font-weight: 500;
+  line-height: 50px;
+  padding-left: 300px;
+  width: 383.41px;
+  height: 100px;
+  color: #0b132a;
 }
 
 .see {
-    width: 555px;
-    height: 60px;
-    font-family: Rubik;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 30px;
-    padding-left: 220px;
-    color: #4F5665;
+  width: 555px;
+  height: 60px;
+  font-family: Rubik;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+  padding-left: 220px;
+  color: #4f5665;
 }
 
 #global {
-    color: #DDE0E4;
-    width: 900px;
-    height: 537.77px;
-    padding-left: 150px;
-    padding-top: 120px;
-
+  color: #dde0e4;
+  width: 900px;
+  height: 537.77px;
+  padding-left: 150px;
+  padding-top: 120px;
 }
 
 #spons {
-    width: 900.64px;
-    height: 208.32px;
-    padding-left: 100px;
+  width: 900.64px;
+  height: 208.32px;
+  padding-left: 100px;
 }
 
 .trust {
-    width: 447.81px;
-    height: 100px;
-    font-family: Rubik;
-    font-size: 35px;
-    font-weight: 500;
-    line-height: 50px;
-    color: #0B132A;
-    padding-left: 350px;
+  width: 447.81px;
+  height: 100px;
+  font-family: Rubik;
+  font-size: 35px;
+  font-weight: 500;
+  line-height: 50px;
+  color: #0b132a;
+  padding-left: 350px;
 }
 
 .these {
-    width: 555px;
-    height: 60px;
-    font-family: Rubik;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 30px;
-    color: #4F5665;
-    padding-left: 300px;
-    padding-top: 20px;
+  width: 555px;
+  height: 60px;
+  font-family: Rubik;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+  color: #4f5665;
+  padding-left: 300px;
+  padding-top: 20px;
 }
 
 .wow {
-    width: 350px;
-    height: 230px;
-    border-radius: 10px;
-    border: 2px;
-    border: 2px solid #F53838;
-    color: #FFFFFF;
-    margin-top: 60px;
-
+  width: 350px;
+  height: 230px;
+  border-radius: 10px;
+  border: 2px;
+  border: 2px solid #f53838;
+  color: #ffffff;
+  margin-top: 60px;
 }
 
 .like {
-    width: 350px;
-    height: 230px;
-    border-radius: 10px;
-    border: 2px;
-    border: 2px solid #DDDDDD;
-    margin-top: 60px;
+  width: 350px;
+  height: 230px;
+  border-radius: 10px;
+  border: 2px;
+  border: 2px solid #dddddd;
+  margin-top: 60px;
 }
 
 .this {
-    width: 350px;
-    height: 230px;
-    border-radius: 10px;
-    border: 2px;
-    border: 2px solid #DDDDDD;
-    margin-top: 60px;
+  width: 350px;
+  height: 230px;
+  border-radius: 10px;
+  border: 2px;
+  border: 2px solid #dddddd;
+  margin-top: 60px;
 }
 
 .dot {
-    width: 135px;
-    height: 15px;
-    padding-top: 82.5px;
+  width: 135px;
+  height: 15px;
+  padding-top: 82.5px;
 }
 
 .left {
-    width: 60px;
-    height: 60px;
-    padding-top: 60px;
-    padding-left: 800px;
+  width: 60px;
+  height: 60px;
+  padding-top: 60px;
+  padding-left: 800px;
 }
 
 #right {
-    width: 150px;
-    height: 150px;
-    padding-top: 30px;
-
+  width: 150px;
+  height: 150px;
+  padding-top: 30px;
 }
 
 .man {
-    width: 50px;
-    height: 50px;
-    padding-top: 30px;
-    padding-left: 20px;
+  width: 50px;
+  height: 50px;
+  padding-top: 30px;
+  padding-left: 20px;
 }
 
 .Robert {
-    width: 112px;
-    height: 18px;
-    font-family: Rubik;
-    font-size: 15px;
-    font-weight: 500;
-    line-height: 30px;
-    text-align: center;
-    color: #0B132A;
-    padding-top: 30px;
-    padding-right: 50px;
-
-
+  width: 112px;
+  height: 18px;
+  font-family: Rubik;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 30px;
+  text-align: center;
+  color: #0b132a;
+  padding-top: 30px;
+  padding-right: 50px;
 }
 
 .number {
-    width: 24px;
-    height: 16px;
-    font-family: Rubik;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 30px;
-    text-align: left;
-    color: #0B132A;
-    padding-top: 40px;
-
-
+  width: 24px;
+  height: 16px;
+  font-family: Rubik;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: left;
+  color: #0b132a;
+  padding-top: 40px;
 }
 
 .star {
-    width: 16px;
-    height: 16px;
-    padding-top: 46.65px;
-    padding-right: 30px;
-
+  width: 16px;
+  height: 16px;
+  padding-top: 46.65px;
+  padding-right: 30px;
 }
 
 p {
-    width: 340px;
-    height: 100px;
-    font-family: Rubik;
-    font-size: 15px;
-    font-weight: 400;
-    line-height: 30px;
-    text-align: left;
-    color: #0B132A;
-    padding-left: 20px;
-    padding-top: 20px;
+  width: 340px;
+  height: 100px;
+  font-family: Rubik;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: left;
+  color: #0b132a;
+  padding-left: 20px;
+  padding-top: 20px;
 }
 
 .lady {
-    width: 50px;
-    height: 50px;
-    padding-top: 30px;
-    padding-left: 20px;
-
+  width: 50px;
+  height: 50px;
+  padding-top: 30px;
+  padding-left: 20px;
 }
 
 .christy {
-    width: 142.02px;
-    height: 18px;
-    font-family: Rubik;
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 30px;
-    color: #0B132A;
-    padding-top: 30px;
-    padding-right: 20px;
+  width: 142.02px;
+  height: 18px;
+  font-family: Rubik;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 30px;
+  color: #0b132a;
+  padding-top: 30px;
+  padding-right: 20px;
 }
 
 .number2 {
-    width: 24px;
-    height: 16px;
-    font-family: Rubik;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 30px;
-    color: #0B132A;
-    padding-top: 40px;
-
+  width: 24px;
+  height: 16px;
+  font-family: Rubik;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+  color: #0b132a;
+  padding-top: 40px;
 }
 
 .star2 {
-    width: 16px;
-    height: 16px;
-    padding-top: 46.65px;
-    padding-right: 30px;
+  width: 16px;
+  height: 16px;
+  padding-top: 46.65px;
+  padding-right: 30px;
 }
 
 .para {
-    width: 340px;
-    height: 100px;
-    font-family: Rubik;
-    font-size: 15px;
-    font-weight: 400;
-    line-height: 40px;
-    color: #0B132A;
-    padding-right: 20px;
-    padding-top: 20px;
+  width: 340px;
+  height: 100px;
+  font-family: Rubik;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 40px;
+  color: #0b132a;
+  padding-right: 20px;
+  padding-top: 20px;
 }
 
 .boy {
-    width: 50px;
-    height: 50px;
-    padding-top: 30px;
-    padding-left: 20px;
+  width: 50px;
+  height: 50px;
+  padding-top: 30px;
+  padding-left: 20px;
 }
 
 .Kim {
-    width: 142.02px;
-    height: 18px;
-    font-family: Rubik;
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 20px;
-    color: #0B132A;
-    padding-top: 30px;
-    padding-left: 5px;
+  width: 142.02px;
+  height: 18px;
+  font-family: Rubik;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  color: #0b132a;
+  padding-top: 30px;
+  padding-left: 5px;
 }
 
 .number3 {
-    width: 24px;
-    height: 16px;
-    font-family: Rubik;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 30px;
-    color: #0B132A;
-    padding-top: 40px;
-    padding-left: 20px;
+  width: 24px;
+  height: 16px;
+  font-family: Rubik;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+  color: #0b132a;
+  padding-top: 40px;
+  padding-left: 20px;
 }
 
 .star3 {
-    width: 16px;
-    height: 16px;
-    padding-top: 46.65px;
-    padding-right: 10px;
+  width: 16px;
+  height: 16px;
+  padding-top: 46.65px;
+  padding-right: 10px;
 }
 
 .para2 {
-    width: 340px;
-    height: 100px;
-    font-family: Rubik;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 30px;
-    color: #0B132A;
-    padding-left: 20px;
-    padding-top: 40px;
+  width: 340px;
+  height: 100px;
+  font-family: Rubik;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+  color: #0b132a;
+  padding-left: 20px;
+  padding-top: 40px;
 }
 
 .subscribe {
-    width: 371.61px;
-    height: 80px;
-    font-family: Rubik;
-    font-size: 30px;
-    font-weight: 500;
-    line-height: 45px;
-    color: #0B132A;
-    padding-left: 50px;
+  width: 371.61px;
+  height: 80px;
+  font-family: Rubik;
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 45px;
+  color: #0b132a;
+  padding-left: 50px;
 }
 
 .with {
-    font-family: Rubik;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 30px;
-    width: 410px;
-    height: 16px;
-    color: #4F5665;
-
+  font-family: Rubik;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+  width: 410px;
+  height: 16px;
+  color: #4f5665;
 }
 
 .now {
-    width: 250px;
-    height: 40px;
-    border-radius: 10px;
-    background-color: #F53838;
-    color: #fff;
-    margin-right: 110px;
-    margin-top: 40px;
-
+  width: 250px;
+  height: 40px;
+  border-radius: 10px;
+  background-color: #f53838;
+  color: #fff;
+  margin-right: 110px;
+  margin-top: 40px;
 }
 
 #Collection {
-    width: 149px;
-    height: 36.23px;
-    padding-top: 200px;
-
+  width: 149px;
+  height: 36.23px;
+  padding-top: 200px;
 }
 
 .las {
-    width: 104px;
-    height: 24px;
-    font-family: Rubik;
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 23.7px;
-    color: #0B132A;
-    padding-left: 10px;
+  width: 104px;
+  height: 24px;
+  font-family: Rubik;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 23.7px;
+  color: #0b132a;
+  padding-left: 10px;
 }
 
 #priv {
-    width: 340px;
-    height: 61.57px;
-    font-family: Rubik;
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 30px;
-    color: #4F5665;
+  width: 340px;
+  height: 61.57px;
+  font-family: Rubik;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 30px;
+  color: #4f5665;
 }
 
 #face {
-    width: 60.6px;
-    height: 60.6px;
-    padding-top: 20px;
+  width: 60.6px;
+  height: 60.6px;
+  padding-top: 20px;
 }
 
 #twitter {
-    width: 60.6px;
-    height: 60.6px;
-    padding-top: 20px;
+  width: 60.6px;
+  height: 60.6px;
+  padding-top: 20px;
 }
 
 #insta {
-    width: 60.6px;
-    height: 60.6px;
-    padding-top: 20px;
+  width: 60.6px;
+  height: 60.6px;
+  padding-top: 20px;
 }
 
 .twenty {
-    width: 132px;
-    height: 30px;
-    font-family: Rubik;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 30px;
-    color: #AFB5C0;
-    padding-bottom: 20px;
+  width: 132px;
+  height: 30px;
+  font-family: Rubik;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+  color: #afb5c0;
+  padding-bottom: 20px;
 }
 
 .bus1 {
-    width: 74px;
-    height: 280px;
-    padding-top: 200px;
+  width: 74px;
+  height: 280px;
+  padding-top: 200px;
 }
 
 .bus2 {
-    width: 123px;
-    height: 280px;
-    padding-top: 200px;
-
+  width: 123px;
+  height: 280px;
+  padding-top: 200px;
 }
 
 .bus3 {
-    width: 125px;
-    height: 120px;
-    padding-top: 200px;
-
+  width: 125px;
+  height: 120px;
+  padding-top: 200px;
 }
 
 .pro {
-    width: 71px;
-    height: 30px;
-    font-family: Rubik;
-    font-size: 18px;
-    font-weight: 700;
-    line-height: 30px;
-    color: #0B132A;
+  width: 71px;
+  height: 30px;
+  font-family: Rubik;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 30px;
+  color: #0b132a;
 }
 
 .don {
-    width: 74px;
-    height: 30px;
-    font-family: Rubik;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 30px;
-    color: #4F5665;
+  width: 74px;
+  height: 30px;
+  font-family: Rubik;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+  color: #4f5665;
 }
 
 .en {
-    width: 66px;
-    height: 30px;
-    font-family: Rubik;
-    font-size: 18px;
-    font-weight: 700;
-    line-height: 30px;
-    color: #0B132A;
+  width: 66px;
+  height: 30px;
+  font-family: Rubik;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 30px;
+  color: #0b132a;
 }
 
 .faq {
-    width: 123px;
-    height: 30px;
-    font-family: Rubik;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 30px;
-    color: #4F5665;
-
+  width: 123px;
+  height: 30px;
+  font-family: Rubik;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+  color: #4f5665;
 }
 
 .earn {
-    width: 121px;
-    height: 30px;
-    font-family: Rubik;
-    font-size: 18px;
-    font-weight: 700;
-    line-height: 30px;
-    color: #0B132A;
-
+  width: 121px;
+  height: 30px;
+  font-family: Rubik;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 30px;
+  color: #0b132a;
 }
 
 .affi {
-    width: 121px;
-    height: 30px;
-    font-family: Rubik;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 30px;
-    color: #4F5665;
-
+  width: 121px;
+  height: 30px;
+  font-family: Rubik;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+  color: #4f5665;
 }
