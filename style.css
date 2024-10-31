@@ -46,6 +46,7 @@ span {
   line-height: 23.7px;
   margin-left: 10px;
   color: #0b132a;
+  cursor: pointer;
 }
 
 #logo {
@@ -585,12 +586,14 @@ span {
   height: 60px;
   padding-top: 60px;
   padding-left: 800px;
+  cursor: pointer;
 }
 
 #right {
   width: 150px;
   height: 150px;
   padding-top: 30px;
+  cursor: pointer;
 }
 
 .man {
@@ -773,6 +776,7 @@ p {
   color: #fff;
   margin-right: 110px;
   margin-top: 40px;
+  cursor: pointer;
 }
 
 #Collection {
